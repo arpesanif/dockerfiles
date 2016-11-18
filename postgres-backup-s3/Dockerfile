@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM postgres:9.6.1-alpine
 MAINTAINER Johannes Schickling "schickling.j@gmail.com"
 
 ADD install.sh install.sh
